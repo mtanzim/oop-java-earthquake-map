@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="10b7167d-0775-4c86-87f4-7ca6f77370fb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/wayne.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/saveactions_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UCSDUnfoldingMaps.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/2.5_week.atom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/LifeExpectancyWorldBank.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/LifeExpectancyWorldBankModule3.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/airports.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/blankDark-1-3.mbtiles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/blankLight-1-3.mbtiles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/city-data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/countries.geo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/java.policy.applet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/module1.HelloWorld1557083174701.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/module1.HelloWorld1557083290589.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/module1.HelloWorld1557083798747.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/palmTrees.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/quiz1.atom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/quiz2.atom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/routes.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sortAndPrint.test2.out.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test1.atom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test1.out.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test2.atom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test2.out.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2.5_week.atom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/LifeExpectancyWorldBank.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/LifeExpectancyWorldBankModule3.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/airports.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/blankDark-1-3.mbtiles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/blankLight-1-3.mbtiles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/city-data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/countries.geo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/palmTrees.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/quiz1.atom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/quiz2.atom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/routes.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sortAndPrint.test2.out.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/test1.atom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/test1.out.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/test2.atom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/test2.out.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HelloUCSDWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OfflineMapApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demos/Airport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demos/EarthquakeCityMapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demos/LifeExpectancy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demos/LocationTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demos/MyDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demos/MyPApplet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demos/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demos/SearchAndSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demos/SimpleLocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demos/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module1/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module3/EarthquakeCityMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module4/CityMarker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module4/EarthquakeCityMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module4/EarthquakeMarker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module4/LandQuakeMarker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module4/OceanQuakeMarker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module5/CityMarker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module5/CommonMarker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module5/EarthquakeCityMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module5/EarthquakeMarker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module5/LandQuakeMarker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module5/OceanQuakeMarker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module6/AirportMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module6/AirportMarker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module6/CityMarker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module6/CommonMarker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module6/EarthquakeCityMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module6/EarthquakeMarker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module6/LandQuakeMarker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module6/LifeExpectancy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module6/OceanQuakeMarker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parsing/ParseFeed.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CheckStyle-IDEA-workspace">
+    <option name="configuration">
+      <map>
+        <entry key="last-active-plugin-version" value="5.22.1" />
+      </map>
+    </option>
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="CLEAR_OUTPUT_DIRECTORY" value="false" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="UCSDUnfoldingMaps" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/module1/HelloWorld.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="57" column="59" selection-start-line="57" selection-start-column="59" selection-end-line="57" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/module3/EarthquakeCityMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/parsing/ParseFeed.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3961">
+              <caret line="4" column="24" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindBugs-IDEA-Workspace">
+    <analyzeAfterCompile>true</analyzeAfterCompile>
+    <toolWindowToFront>false</toolWindowToFront>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>PointFeature</find>
+      <find>Simp</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/module1/HelloWorld.java" />
+        <option value="$PROJECT_DIR$/src/module3/EarthquakeCityMap.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="25" />
+    <option name="width" value="960" />
+    <option name="height" value="1006" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="UCSDUnfoldingMaps" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UCSDUnfoldingMaps" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Applet.EarthquakeCityMap">
+    <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+    </configuration>
+    <configuration name="EarthquakeCityMap" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="module3.EarthquakeCityMap" />
+      <module name="UCSDUnfoldingMaps" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloWorld" type="Applet" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="module1.HelloWorld" />
+      <module name="UCSDUnfoldingMaps" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EarthquakeCityMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="module3.EarthquakeCityMap" />
+      <module name="UCSDUnfoldingMaps" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="module1.HelloWorld" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="module1.HelloWorld" />
+      <module name="UCSDUnfoldingMaps" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Applet.HelloWorld" />
+      <item itemvalue="Application.module1.HelloWorld" />
+      <item itemvalue="Application.EarthquakeCityMap" />
+      <item itemvalue="Applet.EarthquakeCityMap" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Applet.EarthquakeCityMap" />
+        <item itemvalue="Application.EarthquakeCityMap" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="25" width="1920" height="1006" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49894515" visible="true" weight="0.24986821" />
+      <window_info id="Structure" order="1" sideWeight="0.5010548" side_tool="true" weight="0.24986821" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Favorites" order="3" sideWeight="0.5009091" side_tool="true" weight="0.28993148" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3298122" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="CheckStyle" order="7" weight="0.3298122" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3298122" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/OfflineMapApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HelloUCSDWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/airports.dat">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/countries.geo.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/2.5_week.atom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/module1/HelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="57" column="59" selection-start-line="57" selection-start-column="59" selection-end-line="57" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/module3/EarthquakeCityMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parsing/ParseFeed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3961">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>algs4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>algs4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
