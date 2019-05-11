@@ -8,8 +8,8 @@ import de.fhpotsdam.unfolding.geo.Location;
 import de.fhpotsdam.unfolding.marker.AbstractShapeMarker;
 import de.fhpotsdam.unfolding.marker.Marker;
 import de.fhpotsdam.unfolding.marker.MultiMarker;
-import de.fhpotsdam.unfolding.providers.Google;
 import de.fhpotsdam.unfolding.providers.MBTilesMapProvider;
+import de.fhpotsdam.unfolding.providers.MapBox;
 import de.fhpotsdam.unfolding.utils.MapUtils;
 import parsing.ParseFeed;
 import processing.core.PApplet;
@@ -18,6 +18,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
+import static module4.CityMarker.TRI_SIZE;
 
 /**
  * EarthquakeCityMap
@@ -72,7 +74,8 @@ public class EarthquakeCityMap extends PApplet {
             map = new UnfoldingMap(this, 200, 50, 650, 600, new MBTilesMapProvider(mbTilesString));
             earthquakesURL = "2.5_week.atom";  // The same feed, but saved August 7, 2015
         } else {
-            map = new UnfoldingMap(this, 200, 50, 650, 600, new Google.GoogleMapProvider());
+//            map = new UnfoldingMap(this, 200, 50, 650, 600, new Google.GoogleMapProvider());
+            map = new UnfoldingMap(this, 200, 50, 650, 600, new MapBox.WorldLightProvider());
             // IF YOU WANT TO TEST WITH A LOCAL FILE, uncomment the next line
             //earthquakesURL = "2.5_week.atom";
         }
@@ -138,24 +141,36 @@ public class EarthquakeCityMap extends PApplet {
     private void addKey() {
         // Remember you can use Processing's graphics methods here
         fill(255, 250, 240);
-        rect(25, 50, 150, 250);
+        rect(25, 50, 150, 600);
 
         fill(0);
         textAlign(LEFT, CENTER);
         textSize(12);
-        text("Earthquake Key", 50, 75);
+        int y_pos = 70;
+        final int inc_y = 40;
+        final int left_x = 50;
+        final int x_label_offset = 25;
+        text("Earthquake Key", 50, y_pos);
 
-        fill(color(255, 0, 0));
-        ellipse(50, 125, 15, 15);
-        fill(color(255, 255, 0));
-        ellipse(50, 175, 10, 10);
-        fill(color(0, 0, 255));
-        ellipse(50, 225, 5, 5);
+        y_pos += inc_y;
+        triangle(left_x - TRI_SIZE / 2,
+                y_pos - TRI_SIZE / 2,
+                left_x + TRI_SIZE / 2, y_pos - TRI_SIZE / 2,
+                left_x, y_pos + TRI_SIZE / 2);
+        fill(255, 255, 255);
+        y_pos += inc_y;
+        rect(left_x - 5, y_pos - 5, 10, 10);
+        y_pos += inc_y;
+        ellipse(left_x, y_pos, 10, 10);
 
+        y_pos = 70;
         fill(0, 0, 0);
-        text("5.0+ Magnitude", 75, 125);
-        text("4.0+ Magnitude", 75, 175);
-        text("Below 4.0", 75, 225);
+        y_pos += inc_y;
+        text("City Marker", left_x + x_label_offset, y_pos);
+        y_pos += inc_y;
+        text("Ocean Quake", left_x + x_label_offset, y_pos);
+        y_pos += inc_y;
+        text("Land Quake", left_x + x_label_offset, y_pos);
     }
 
 
