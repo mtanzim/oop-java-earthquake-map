@@ -11,7 +11,7 @@ import processing.core.PGraphics;
  */
 public class LandQuakeMarker extends EarthquakeMarker {
 
-    public static final float LAND_RADIUS_MAGNIFIER = 1.5f;
+    public static final float LAND_RADIUS_MAGNIFIER = 1.75f;
 
 
     public LandQuakeMarker(PointFeature quake) {

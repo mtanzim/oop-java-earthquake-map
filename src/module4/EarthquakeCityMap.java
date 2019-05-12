@@ -84,10 +84,10 @@ public class EarthquakeCityMap extends PApplet {
         // FOR TESTING: Set earthquakesURL to be one of the testing files by uncommenting
         // one of the lines below.  This will work whether you are online or offline
         // earthquakesURL = "test1.atom";
-        earthquakesURL = "test2.atom";
+//        earthquakesURL = "test2.atom";
 
         // WHEN TAKING THIS QUIZ: Uncomment the next line
-        //earthquakesURL = "quiz1.atom";
+//        earthquakesURL = "quiz1.atom";
 
 
         // (2) Reading in earthquake data and geometric properties
@@ -150,7 +150,9 @@ public class EarthquakeCityMap extends PApplet {
         final int inc_y = 40;
         final int left_x = 50;
         final int x_label_offset = 25;
-        text("Earthquake Key", 50, y_pos);
+        text("Earthquake Key", left_x, y_pos);
+
+        fill(175, 0, 0);
 
         y_pos += inc_y;
         triangle(left_x - TRI_SIZE / 2,
@@ -158,19 +160,45 @@ public class EarthquakeCityMap extends PApplet {
                 left_x + TRI_SIZE / 2, y_pos - TRI_SIZE / 2,
                 left_x, y_pos + TRI_SIZE / 2);
         fill(255, 255, 255);
+
         y_pos += inc_y;
         rect(left_x - 5, y_pos - 5, 10, 10);
         y_pos += inc_y;
         ellipse(left_x, y_pos, 10, 10);
 
+        y_pos += inc_y;
+        y_pos += inc_y;
+        fill(255, 255, 0);
+
+        ellipse(left_x, y_pos, 10, 10);
+        y_pos += inc_y;
+        fill(0, 0, 255);
+
+        ellipse(left_x, y_pos, 10, 10);
+        y_pos += inc_y;
+        fill(255, 0, 0);
+
+        ellipse(left_x, y_pos, 10, 10);
+
+        fill(255, 255, 255);
         y_pos = 70;
         fill(0, 0, 0);
+
+
         y_pos += inc_y;
         text("City Marker", left_x + x_label_offset, y_pos);
         y_pos += inc_y;
         text("Ocean Quake", left_x + x_label_offset, y_pos);
         y_pos += inc_y;
         text("Land Quake", left_x + x_label_offset, y_pos);
+        y_pos += inc_y;
+        text("Depth Legend", left_x, y_pos);
+        y_pos += inc_y;
+        text("Shallow", left_x + x_label_offset, y_pos);
+        y_pos += inc_y;
+        text("Intermediate", left_x + x_label_offset, y_pos);
+        y_pos += inc_y;
+        text("Deep", left_x + x_label_offset, y_pos);
     }
 
 

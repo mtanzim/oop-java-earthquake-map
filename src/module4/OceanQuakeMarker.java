@@ -11,7 +11,7 @@ import processing.core.PGraphics;
  */
 public class OceanQuakeMarker extends EarthquakeMarker {
 
-    public static final float OCEAN_RADIUS_MAGNIFIER = 1.5f;
+    public static final float OCEAN_RADIUS_MAGNIFIER = 1.75f;
 
 
     public OceanQuakeMarker(PointFeature quake) {
