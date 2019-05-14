@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/module5/CityMarker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module5/CityMarker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/module5/EarthquakeCityMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module5/EarthquakeCityMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module5/EarthquakeMarker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module5/EarthquakeMarker.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,14 +31,14 @@
     <favorites_list name="UCSDUnfoldingMaps" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.69095093">
+    <splitter split-orientation="horizontal" split-proportion="0.8185484">
       <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+        <leaf>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/module4/EarthquakeCityMap.java">
+            <entry file="file://$PROJECT_DIR$/src/module4/EarthquakeMarker.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="672">
-                  <caret line="75" column="16" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="16" />
+                <state relative-caret-position="536">
+                  <caret line="73" column="54" selection-start-line="73" selection-start-column="54" selection-end-line="73" selection-end-column="54" />
                 </state>
               </provider>
             </entry>
@@ -45,8 +46,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/module5/CityMarker.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="387">
-                  <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
+                <state relative-caret-position="315">
+                  <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
                 </state>
               </provider>
             </entry>
@@ -54,8 +55,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/module5/LandQuakeMarker.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="181">
-                  <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+                <state relative-caret-position="238">
+                  <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
                 </state>
               </provider>
             </entry>
@@ -63,8 +64,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/module5/OceanQuakeMarker.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+                <state relative-caret-position="221">
+                  <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
                 </state>
               </provider>
             </entry>
@@ -72,8 +73,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/module5/CommonMarker.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="301">
-                  <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+                <state relative-caret-position="131">
+                  <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
                 </state>
               </provider>
             </entry>
@@ -81,8 +82,9 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/module5/EarthquakeCityMap.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="171">
-                  <caret line="151" column="35" selection-start-line="151" selection-start-column="32" selection-end-line="151" selection-end-column="35" />
+                <state relative-caret-position="222">
+                  <caret line="173" column="24" selection-start-line="173" selection-start-column="24" selection-end-line="173" selection-end-column="24" />
+                  <caret line="177" column="28" selection-start-line="177" selection-start-column="28" selection-end-line="177" selection-end-column="28" />
                 </state>
               </provider>
             </entry>
@@ -90,8 +92,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/module5/EarthquakeMarker.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="181">
-                  <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+                <state relative-caret-position="180">
+                  <caret line="118" column="34" selection-start-line="118" selection-start-column="34" selection-end-line="118" selection-end-column="34" />
                 </state>
               </provider>
             </entry>
@@ -114,20 +116,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="jar://$PROJECT_DIR$/lib/unfolding.0.9.7-uscd.jar!/de/fhpotsdam/unfolding/marker/AbstractMarker.class">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="714">
-                  <caret line="42" column="131" selection-start-line="42" selection-start-column="131" selection-end-line="42" selection-end-column="131" />
-                </state>
-              </provider>
-            </entry>
-          </file>
         </leaf>
       </split-first>
       <split-second>
         <leaf>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/module5/CommonMarker.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="391">
@@ -139,17 +132,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/module5/LandQuakeMarker.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="86">
+                <state relative-caret-position="238">
                   <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/module5/EarthquakeMarker.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="324">
-                  <caret line="74" column="22" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="22" />
                 </state>
               </provider>
             </entry>
@@ -161,7 +145,6 @@
   <component name="FindBugs-IDEA-Workspace">
     <analyzeAfterCompile>true</analyzeAfterCompile>
     <toolWindowToFront>false</toolWindowToFront>
-    <toolWindowEditorPreview>false</toolWindowEditorPreview>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -179,8 +162,14 @@
       <find>getColor</find>
       <find>drawMar</find>
       <find>selec</find>
+      <find>isIns</find>
+      <find>showTitle</find>
+      <find>setSelec</find>
       <find>show</find>
       <find>setSelected</find>
+      <find>hideMarker</find>
+      <find>isInside</find>
+      <find>hover</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -204,6 +193,7 @@
         <option value="$PROJECT_DIR$/src/module4/OceanQuakeMarker.java" />
         <option value="$PROJECT_DIR$/src/module4/LandQuakeMarker.java" />
         <option value="$PROJECT_DIR$/src/module4/EarthquakeCityMap.java" />
+        <option value="$PROJECT_DIR$/src/module5/EarthquakeMarker.java" />
         <option value="$PROJECT_DIR$/src/module5/CityMarker.java" />
         <option value="$PROJECT_DIR$/src/module5/EarthquakeCityMap.java" />
       </list>
@@ -220,8 +210,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -240,10 +228,47 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="module5" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="UCSDUnfoldingMaps" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UCSDUnfoldingMaps" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UCSDUnfoldingMaps" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UCSDUnfoldingMaps" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="unfolding.0.9.7-uscd.jar" type="ab9368bb:PsiFileNode" />
+            </path>
+            <path>
+              <item name="UCSDUnfoldingMaps" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UCSDUnfoldingMaps" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="unfolding.0.9.7-uscd.jar" type="ab9368bb:PsiFileNode" />
+              <item name="fhpotsdam" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UCSDUnfoldingMaps" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UCSDUnfoldingMaps" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="unfolding.0.9.7-uscd.jar" type="ab9368bb:PsiFileNode" />
+              <item name="fhpotsdam" type="462c0819:PsiDirectoryNode" />
+              <item name="unfolding" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UCSDUnfoldingMaps" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UCSDUnfoldingMaps" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="unfolding.0.9.7-uscd.jar" type="ab9368bb:PsiFileNode" />
+              <item name="fhpotsdam" type="462c0819:PsiDirectoryNode" />
+              <item name="unfolding" type="462c0819:PsiDirectoryNode" />
+              <item name="marker" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -364,41 +389,21 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR,SHOW_PROPERTIES" />
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1006" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4283305" visible="true" weight="0.13389562" />
-      <window_info id="Structure" order="1" sideWeight="0.57166946" side_tool="true" visible="true" weight="0.17817606" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.42465752" visible="true" weight="0.14707433" />
+      <window_info id="Structure" order="1" sideWeight="0.5753425" side_tool="true" visible="true" weight="0.19873485" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.5025" side_tool="true" weight="0.2113864" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49968573" weight="0.26877934" />
-      <window_info anchor="bottom" x="943" y="171" width="858" height="608" id="Debug" order="3" type="WINDOWED" weight="0.39906102" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="CheckStyle" order="7" weight="0.3298122" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.37910798" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5003143" side_tool="true" weight="0.24178404" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3298122" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" sideWeight="0.49968573" visible="true" weight="0.3298122" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="12" weight="0.3298122" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4975" visible="true" weight="0.16130732" />
-      <window_info id="Structure" order="1" sideWeight="0.50276244" side_tool="true" weight="0.19135477" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Favorites" order="3" sideWeight="0.5025" side_tool="true" weight="0.2113864" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49968573" visible="true" weight="0.24178404" />
-      <window_info anchor="bottom" x="943" y="171" width="858" height="608" id="Debug" order="3" type="WINDOWED" weight="0.39906102" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49968573" visible="true" weight="0.29929578" />
+      <window_info anchor="bottom" x="2260" y="155" width="878" height="608" id="Debug" order="3" type="WINDOWED" weight="0.39906102" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -407,7 +412,30 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5003143" side_tool="true" weight="0.24178404" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3298122" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49968573" weight="0.3298122" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="12" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="12" weight="0.3298122" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4264214" visible="true" weight="0.13442278" />
+      <window_info active="true" id="Structure" order="1" sideWeight="0.5735786" side_tool="true" visible="true" weight="0.18028466" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Favorites" order="3" sideWeight="0.5025" side_tool="true" weight="0.2113864" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49968573" visible="true" weight="0.29929578" />
+      <window_info anchor="bottom" x="2260" y="155" width="878" height="608" id="Debug" order="3" type="WINDOWED" weight="0.39906102" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="CheckStyle" order="7" weight="0.3298122" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.37910798" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5003143" side_tool="true" weight="0.24178404" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3298122" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49968573" weight="0.3298122" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="12" weight="0.3298122" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -467,6 +495,12 @@
           <line>65</line>
           <properties />
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/module5/CityMarker.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -646,59 +680,10 @@
     <entry file="file://$PROJECT_DIR$/data/countries.geo.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/module4/EarthquakeMarker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="73" column="54" selection-start-line="73" selection-start-column="54" selection-end-line="73" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/module4/LandQuakeMarker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/module4/OceanQuakeMarker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/module4/CityMarker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/unfolding.0.9.7-uscd.jar!/de/fhpotsdam/unfolding/marker/AbstractMarker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="131" selection-start-line="42" selection-start-column="131" selection-end-line="42" selection-end-column="131" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/module5/OceanQuakeMarker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/module4/EarthquakeCityMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="75" column="16" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/module5/LandQuakeMarker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -709,31 +694,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/module5/EarthquakeMarker.java">
+    <entry file="jar://$PROJECT_DIR$/lib/unfolding.0.9.7-uscd.jar!/de/fhpotsdam/unfolding/marker/AbstractMarker.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        <state relative-caret-position="188">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/module5/CommonMarker.java">
+    <entry file="file://$PROJECT_DIR$/src/module4/OceanQuakeMarker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+        <state relative-caret-position="221">
+          <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/module5/OceanQuakeMarker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/module5/LandQuakeMarker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/module5/CityMarker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
+        <state relative-caret-position="315">
+          <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/module4/CityMarker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/module4/EarthquakeCityMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="236" column="21" selection-start-line="236" selection-start-column="21" selection-end-line="236" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/module4/EarthquakeMarker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="73" column="54" selection-start-line="73" selection-start-column="54" selection-end-line="73" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/module5/CommonMarker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/module5/EarthquakeMarker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="118" column="34" selection-start-line="118" selection-start-column="34" selection-end-line="118" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/module5/EarthquakeCityMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="151" column="35" selection-start-line="151" selection-start-column="32" selection-end-line="151" selection-end-column="35" />
+        <state relative-caret-position="222">
+          <caret line="173" column="24" selection-start-line="173" selection-start-column="24" selection-end-line="173" selection-end-column="24" />
+          <caret line="177" column="28" selection-start-line="177" selection-start-column="28" selection-end-line="177" selection-end-column="28" />
         </state>
       </provider>
     </entry>

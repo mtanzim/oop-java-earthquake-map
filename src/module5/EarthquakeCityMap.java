@@ -131,12 +131,12 @@ public class EarthquakeCityMap extends PApplet {
      * mouse moves.
      */
     @Override
+
     public void mouseMoved() {
         // clear the last selection
         if (lastSelected != null) {
             lastSelected.setSelected(false);
             lastSelected = null;
-
         }
         selectMarkerIfHover(quakeMarkers);
         selectMarkerIfHover(cityMarkers);
@@ -150,7 +150,9 @@ public class EarthquakeCityMap extends PApplet {
         // TODO: Implement this method
         for (Marker marker : markers) {
             if (marker.isInside(map, mouseX, mouseY)) {
-                marker.setSelected(true);
+                lastSelected = (CommonMarker) marker;
+                lastSelected.setSelected(true);
+//                System.out.println(lastSelected.getProperty("name"));
                 break;
             }
         }
@@ -167,6 +169,74 @@ public class EarthquakeCityMap extends PApplet {
         // TODO: Implement this method
         // Hint: You probably want a helper method or two to keep this code
         // from getting too long/disorganized
+        System.out.println("\nClicked\n");
+        unhideMarkers();
+        findSelectedEarthQuake();
+        if (lastClicked == null) {
+            System.out.println("Need to find city!");
+            unhideMarkers();
+            findSelectedCity();
+        }
+        if (lastClicked == null) {
+            System.out.println("Found nothing");
+            unhideMarkers();
+        }
+    }
+
+    private void findSelectedCity() {
+        for (Marker marker : cityMarkers) {
+            if (marker.isInside(map, mouseX, mouseY)) {
+                lastClicked = (CommonMarker) marker;
+                System.out.println(marker.getProperty("name"));
+            } else {
+                marker.setHidden(true);
+            }
+
+        }
+        if (lastClicked != null) {
+            System.out.println("Looking for nearby quakes");
+            Location curLocation = lastClicked.getLocation();
+
+            for (Marker quakeMarker : quakeMarkers) {
+                double curThreatCircle = ((EarthquakeMarker) quakeMarker).threatCircle();
+                if (quakeMarker.getDistanceTo(curLocation) > curThreatCircle) {
+                    quakeMarker.setHidden(true);
+                } else {
+                    System.out.println(quakeMarker.getStringProperty("title"));
+
+                }
+            }
+        }
+        return;
+    }
+
+    private void findSelectedEarthQuake() {
+        lastClicked = null;
+        for (Marker marker : quakeMarkers) {
+            if (marker.isInside(map, mouseX, mouseY)) {
+                lastClicked = (CommonMarker) marker;
+                System.out.println(lastClicked.getProperty("title"));
+
+
+            } else {
+                marker.setHidden(true);
+            }
+        }
+
+        if (lastClicked != null) {
+            System.out.println("Looking for affected cities");
+            double threatRadius = ((EarthquakeMarker) lastClicked).threatCircle();
+            Location curLocation = lastClicked.getLocation();
+            for (Marker cityMarker : cityMarkers) {
+                if (cityMarker.getDistanceTo(curLocation) > threatRadius) {
+                    cityMarker.setHidden(true);
+                } else {
+                    System.out.println(cityMarker.getStringProperty("name"));
+                }
+            }
+        }
+        return;
+
     }
 
 
