@@ -171,10 +171,15 @@ public class EarthquakeCityMap extends PApplet {
         // from getting too long/disorganized
         System.out.println("\nClicked\n");
         unhideMarkers();
+        if (lastClicked != null) {
+            System.out.println("Return early");
+            lastClicked = null;
+            return;
+        }
         findSelectedEarthQuake();
         if (lastClicked == null) {
             System.out.println("Need to find city!");
-            unhideMarkers();
+//            unhideMarkers();
             findSelectedCity();
         }
         if (lastClicked == null) {
@@ -185,9 +190,10 @@ public class EarthquakeCityMap extends PApplet {
 
     private void findSelectedCity() {
         for (Marker marker : cityMarkers) {
-            if (marker.isInside(map, mouseX, mouseY)) {
+            if (marker.isInside(map, mouseX, mouseY) && lastClicked == null) {
                 lastClicked = (CommonMarker) marker;
                 System.out.println(marker.getProperty("name"));
+
             } else {
                 marker.setHidden(true);
             }
@@ -203,6 +209,7 @@ public class EarthquakeCityMap extends PApplet {
                     quakeMarker.setHidden(true);
                 } else {
                     System.out.println(quakeMarker.getStringProperty("title"));
+                    quakeMarker.setHidden(false);
 
                 }
             }
@@ -213,11 +220,9 @@ public class EarthquakeCityMap extends PApplet {
     private void findSelectedEarthQuake() {
         lastClicked = null;
         for (Marker marker : quakeMarkers) {
-            if (marker.isInside(map, mouseX, mouseY)) {
+            if (marker.isInside(map, mouseX, mouseY) && lastClicked == null) {
                 lastClicked = (CommonMarker) marker;
                 System.out.println(lastClicked.getProperty("title"));
-
-
             } else {
                 marker.setHidden(true);
             }
