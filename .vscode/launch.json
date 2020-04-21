@@ -1,0 +1,49 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: Current File",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch) - Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-LocationTester<UCSDUnfoldingMaps>",
+      "request": "launch",
+      "mainClass": "demos.LocationTester",
+      "projectName": "UCSDUnfoldingMaps"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-MyPApplet<UCSDUnfoldingMaps>",
+      "request": "launch",
+      "mainClass": "demos.MyPApplet",
+      "projectName": "UCSDUnfoldingMaps"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-SearchAndSort<UCSDUnfoldingMaps>",
+      "request": "launch",
+      "mainClass": "demos.SearchAndSort",
+      "projectName": "UCSDUnfoldingMaps"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-Student<UCSDUnfoldingMaps>",
+      "request": "launch",
+      "mainClass": "demos.Student",
+      "projectName": "UCSDUnfoldingMaps"
+    }
+  ]
+}
